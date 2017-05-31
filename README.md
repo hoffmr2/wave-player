@@ -9,9 +9,9 @@ How to use
 
 1. Download the wave_player both *.cpp & *.h
 2. Include to your project
-3. Init wavePlayer
+3. Init wavePlayer, with parent window handle
 
-    wavePlayer = new WavePlayer(hwndDlg);
+        wavePlayer = new WavePlayer(hwndDlg);
     
     
 4. Use Play method with given file path to play choosen file
